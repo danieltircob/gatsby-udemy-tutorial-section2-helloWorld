@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout"
-import "../components/blog.css"
+import style from "../components/blog.module.css"
 
 export default class blog extends Component {
   render() {
     return (
       <Layout>
-        <h1 className="blog-title">Blog page</h1>
+        <h1 className={style.title}>Blog page</h1>
       </Layout>
     )
   }
