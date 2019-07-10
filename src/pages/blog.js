@@ -1,7 +1,8 @@
 import React, { Component } from "react"
+import Layout from "../components/Layout"
 
 export default class blog extends Component {
   render() {
-    return <div>Blog page</div>
+    return <Layout>Blog page</Layout>
   }
 }
