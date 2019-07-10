@@ -7,6 +7,13 @@ export default class blog extends Component {
     return (
       <Layout>
         <h1 className={style.title}>Blog page</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col">test</div>
+            <div className="col">test</div>
+            <div className="col">test</div>
+          </div>
+        </div>
       </Layout>
     )
   }
