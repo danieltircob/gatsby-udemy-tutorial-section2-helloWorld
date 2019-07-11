@@ -11,7 +11,7 @@ module.exports = {
     description: "some tutorial",
     author: "me tircob",
     data: {
-      name: "Johnny",
+      name: "me tircob",
       age: 30,
     },
   },
@@ -23,5 +23,7 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
