@@ -48,14 +48,14 @@ export default class NavbarNew extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    <Link to="/blog">Blog</Link>
+                    <NavLink href="/blog">Blog</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <Link to="/images">images</Link>
+                    <NavLink href="/images">images</NavLink>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    <Link to="/product">Product</Link>
+                    <NavLink href="/product">Product</NavLink>
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
