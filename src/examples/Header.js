@@ -22,10 +22,12 @@ const Header = () => {
 
   console.log()
 
+  const author = info.johnauthor
+
   return (
     <div>
       {/* <h1>Author: {data.site.siteMetadata.author}</h1> */}
-      <h1>Author: {info.johnauthor}</h1>
+      <h1>Author: {author}</h1>
       <h1>Title {info.title} </h1>
     </div>
   )
