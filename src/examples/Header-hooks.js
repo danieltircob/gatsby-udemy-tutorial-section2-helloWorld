@@ -6,6 +6,7 @@ const getData = graphql`
     site {
       siteMetadata {
         johnauthor: author
+        description
         title
         data {
           age
