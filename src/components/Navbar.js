@@ -40,7 +40,10 @@ export default class NavbarNew extends React.Component {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/examples">examples</NavLink>
+                <NavLink href="/examples">Examples</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/tours">Tours</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -51,7 +54,7 @@ export default class NavbarNew extends React.Component {
                     <NavLink href="/blog">Blog</NavLink>
                   </DropdownItem>
                   <DropdownItem>
-                    <NavLink href="/images">images</NavLink>
+                    <NavLink href="/images">Images</NavLink>
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>

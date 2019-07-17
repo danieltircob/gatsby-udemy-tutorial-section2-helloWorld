@@ -25,6 +25,7 @@
     "gatsby-transformer-sharp": "2.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-icons": "3.7.0",
     "reactstrap": "8.0.0",
     "readable-stream": "3.4.0",
     "styled-components": "4.3.2"
